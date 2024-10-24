@@ -1,0 +1,371 @@
+body{
+    overflow-x: hidden;
+    font-family: sans-serif;
+}
+
+header{
+    display: flex;
+    width: 100vw;
+    height: 25vh;
+    flex-direction: column;
+}
+
+.barra-azul{
+    width: 100%;
+    height: 40%;
+    background-color: #003466;
+}
+
+.header-baixo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60%;
+    width: 100%;
+
+}
+
+nav{
+    width: 50%;
+}
+
+ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+li{
+    cursor: pointer;
+}
+
+.banner{
+    width: 100vw;
+    height: 50vh;
+}
+
+.banner img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.bem-vindo-section{
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    padding: 5vw;
+    box-sizing: border-box;
+}
+
+.bem-vindo-left{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.bem-vindo-left h1{
+    width: 50%;
+    font-size: 3vw;
+    font-family: sans-serif;
+    color: #003466;
+}
+
+.bem-vindo-left h1 span{
+    color: #73120b;
+}
+
+.bem-vindo-left hr{
+    width: 90%;
+    height: 0.5vh;
+    background-color: rgba(211, 211, 211, 0.5);
+    border: none;
+    margin-bottom: 3vh;
+    margin-top: 3vh;
+    margin-left: 0px;
+}
+
+.bem-vindo-left p{
+    width: 90%;
+    font-weight: 300;
+    margin-bottom: 3vh;
+    color: #b0b2b0;
+    text-align: justify;
+    font-size: 1.2vw;
+}
+
+.bem-vindo-left button{
+    background-color: #73120b;
+    padding: 1.3vw;
+    border: none;
+    width: 25%;
+    color: white;
+    border-radius: 1vw;
+    font-size: 1vw;
+    cursor: pointer;
+}
+
+.bem-vindo-right{
+    width: 40%;
+    height: 100%;
+}
+
+.bem-vindo-right img{
+    width: 100%;
+}
+
+.servicos-section{
+    width: 100vw;
+    height: 80vh;
+    background-color: #003466;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.servico-card{
+    width: 22vw;
+    height: 90%;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 1vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1vw;
+    box-sizing: border-box;
+}
+
+.card-upper{
+    width: 100%;
+    height: 30%;
+}
+
+.card-upper img{
+    width: 100%;
+    height: 100%;
+}
+
+.card-lower{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    justify-content: space-around;
+}
+
+.card-lower h2{
+    font-size: 1.5vw;
+}
+
+.card-lower p{
+    text-align: center;
+    line-height: 4vh;
+    font-size: 1.15vw;
+}
+
+.card-lower button{
+    background-color: #73120b;
+    padding: 1.3vw;
+    border: none;
+    width: 90%;
+    color: white;
+    border-radius: 0.5vw;
+    font-size: 1vw;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px 1px black;
+}
+
+.contato-section{
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contato-section hr{
+    width: 80%;
+    height: 0.8vh;
+    background-color: #73120b;
+    border: none;
+    margin-top: 4vh;
+}
+
+.contato-content{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 90%;
+    justify-content: space-between;
+}
+
+.contato-content h3{
+    color: #003466;
+    font-size: 3vw;
+    text-align: center;
+    line-height: 6vh;
+}
+
+.contato-content span{
+    color: #73120b;
+}
+
+.form-contato{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.inputs-left{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-right: 0.5vw;
+    justify-content: space-between;
+}
+
+.inputs-left input{
+    width: 100%;
+    height: 6vh;
+    border-radius: 0.5vw;
+    border: none;
+    background-color: #eeeeee;
+    outline: none;
+    padding: 2vw;
+    box-sizing: border-box;
+}
+
+.inputs-right{
+    width: 50%;
+    height: 100%;
+    background-color: #eeeeee;
+}
+
+.inputs-right input{
+    width: 100%;
+    border-radius: 0.5vw;
+    border: none;
+    background-color: #eeeeee;
+    outline: none;
+    padding: 2vw;
+    box-sizing: border-box;
+    margin-bottom: 1vh;
+}
+
+.inputs-right textarea{
+    width: 100%;
+    border-radius: 0.5vw;
+    border: none;
+    background-color: #eeeeee;
+    outline: none;
+    padding: 2vw;
+    box-sizing: border-box;
+    margin-bottom: 1vh;
+}
+
+.form-fields{
+    display: flex;
+    width: 100%;
+    height: 70%;
+}
+
+form button{
+    background-color: #73120b;
+    padding: 1.3vw;
+    border: none;
+    width: 25%;
+    color: white;
+    border-radius: 1vw;
+    font-size: 1vw;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 400px){
+    .header-baixo div{
+        width: 20%;
+    }   
+
+    .header-baixo div img{
+        width: 100%;
+    }
+
+    nav{
+        width: 80%;
+    }
+
+    li{
+        font-size: 3vw;
+    }
+
+    .banner{
+        height: 25vh;
+    }
+
+    .bem-vindo-section{
+        flex-direction: column;
+    }
+
+    .bem-vindo-left{
+        width: 100%;
+        height: auto;
+        margin-bottom: 5vh;
+    }
+
+    .bem-vindo-left h1{
+        width: 100%;
+        font-size: 4vw;
+    }
+
+    .bem-vindo-left p{
+        font-size: 3vw;
+    }
+
+    .bem-vindo-left button{
+        width: 50%;
+        font-size: 4vw;
+    }
+
+    .bem-vindo-right{
+        width: 70%;
+        height: auto;
+    }
+
+    .servicos-section{
+        height: 150vh;
+        flex-direction: column;
+    }
+
+    .servico-card{
+        width: 80vw;
+        height: auto;
+    }
+
+    .card-lower h2{
+        font-size: 4vw;
+    }
+
+    .card-lower p{
+        font-size: 3vw;
+    }
+
+    .card-lower button{
+        font-size: 4vw;
+    }
+
+    .contato-content h3{
+        font-size: 6vw;
+    }
+
+    form button{
+        font-size: 4vw;
+    }
+}
